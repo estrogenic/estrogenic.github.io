@@ -6,7 +6,7 @@ categories: [Programming, GitHub]
 math: true
 tags: [GitHub]
 image:
-  src: https://user-images.githubusercontent.com/56622746/107542901-06894980-6c0c-11eb-97fa-f56930befed0.png
+  src: /blog-assets/article-1/title.png?raw=true
   alt: GitHub Pages
 ---
 
@@ -37,7 +37,7 @@ GitHub에는 [__GitHub Pages__](https://pages.github.com/) 라는 기능이 있�
 
 ## 2. 블로그 생성
 
-|<img src="/blog-assets/article-1/1.png" width="90%"/>|
+|<img src="/blog-assets/article-1/1.png?raw=true" width="90%"/>|
 |:--:|
 |<small>$$\color{#228B22}{\textit{Download ZIP}}$$</small>|
 
@@ -54,7 +54,7 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 
 ## 3. 세부 설정 변경
 
-|<img src="/blog-assets/article-1/2-1.png" width="80%"/>|<img src="/blog-assets/article-1/2-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/2-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/2-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{_config.yml}}$$</small>|<small>$$\color{#228B22}{\textit{deploy.sh}}$$</small>|
 
@@ -67,7 +67,7 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 
 <br>
 
-|<img src="/blog-assets/article-1/2-3.png" width="80%"/>|<img src="/blog-assets/article-1/2-4.png" width="80%"/>|
+|<img src="/blog-assets/article-1/2-3.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/2-4.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{pages-deploy.yml.hook}}$$</small>|<small>$$\color{#228B22}{\textit{pages-deploy.yml.hook > pages-deploy.yml}}$$</small>|
 
@@ -81,12 +81,12 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 
 ## 4. 로컬에서 돌려보기
 
-|<img src="/blog-assets/article-1/3-1.png" width="80%"/>|<img src="/blog-assets/article-1/3-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/3-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/3-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{run project on localhost - 1}}$$</small>|<small>$$\color{#228B22}{\textit{run project on localhost - 2}}$$</small>|
 
 
-|<img src="/blog-assets/article-1/3-3.png" width="80%"/>|<img src="/blog-assets/article-1/3-4.png" width="80%"/>|
+|<img src="/blog-assets/article-1/3-3.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/3-4.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{run project on localhost - 3}}$$</small>|<small>$$\color{#228B22}{\textit{local server}}$$</small>|
 
@@ -113,18 +113,18 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 
 깃에 올리기에 앞서 잡다한 파일들을 제거해줍니다. `.gitignore` 에 추가해 주셔도 무관합니다.
 
-|<img src="/blog-assets/article-1/4-1.png" width="80%"/>|<img src="/blog-assets/article-1/4-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/4-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/4-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{remove useless files - 1}}$$</small>|<small>$$\color{#228B22}{\textit{remove useless files - 2}}$$</small>|
 
 
-|<img src="/blog-assets/article-1/4-3.png" width="90%"/>|
+|<img src="/blog-assets/article-1/4-3.png?raw=true" width="90%"/>|
 |:--:|
 |<small>$$\color{#228B22}{\textit{remove useless files - 3}}$$</small>|
 
 ### 5-2. 업로드
 
-|<img src="/blog-assets/article-1/5-1.png" width="80%"/>|<img src="/blog-assets/article-1/5-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/5-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/5-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{upload to github - 1}}$$</small>|<small>$$\color{#228B22}{\textit{upload to github - 2}}$$</small>|
 
@@ -133,7 +133,7 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 
 ### 5-3 빌드 진행
 
-|<img src="/blog-assets/article-1/6-1.png" width="80%"/>|<img src="/blog-assets/article-1/6-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/6-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/6-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{proceeding build}}$$</small>|<small>$$\color{#228B22}{\textit{completed jekyll build}}$$</small>|
 
@@ -149,7 +149,7 @@ GitHub Page는 선택한 Branch에 Push가 되면 자동으로 빌드가 진행�
 
 ## 번외. 도메인 설정
 
-|<img src="/blog-assets/article-1/7-1.png" width="80%"/>|<img src="/blog-assets/article-1/7-2.png" width="80%"/>|
+|<img src="/blog-assets/article-1/7-1.png?raw=true" width="80%"/>|<img src="/blog-assets/article-1/7-2.png?raw=true" width="80%"/>|
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{setting in GitHub}}$$</small>|<small>$$\color{#228B22}{\textit{setting in domain management page}}$$</small>|
 
