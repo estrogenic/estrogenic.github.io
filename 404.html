@@ -134,12 +134,27 @@ dynamic_title: true
   }
 </style>
 <script>
-  window.onload = () => {
-    let errorImg = document.createElement("img");
-    errorImg.src = "https://user-images.githubusercontent.com/56622746/107562109-bd90bf80-6c22-11eb-8524-f237934aff14.png"
-    errorImg.style = "width: 380px; height: 300px"
-    document.getElementById("page").prepend(errorImg)
-  }
+  var observer = new MutationObserver(function (mutations, me) {
+    var pageElement = document.getElementById('page');
+    if (pageElement) {
+      let tempDiv = document.createElement('div');
+      tempDiv.innerHTML = '<br>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <span style="font-size:5px">image from namu.wiki</span>';
+
+      let errorImage = document.createElement("img");
+      errorImage.src = "https://user-images.githubusercontent.com/56622746/107562109-bd90bf80-6c22-11eb-8524-f237934aff14.png";
+      errorImage.style = "width: 380px; height: 300px";
+
+      pageElement.prepend(tempDiv);
+      pageElement.prepend(errorImage);
+      me.disconnect(); // stop observing
+      return;
+    }
+  });
+
+  observer.observe(document, {
+    childList: true,
+    subtree: true
+  });
 </script>
 
 <div class="lead">
