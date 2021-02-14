@@ -47,7 +47,7 @@ GitHub에는 [__GitHub Pages__](https://pages.github.com/) 라는 기능이 있�
 
 Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서 이런 방법으로 했습니다.
 
-다만 이런 방식으로 할 때는 꼭 __라이선스(!!)__ 를 참고하여 진행하도록 합니다. 이 테마는 MIT 라이선스를 가지고 있고 저는 이에 맞춰서 블로그와 저장소의 [README.md](https://github.com/estrogenic/estrogenic.github.io/blob/master/README.md) 에 제작자 명시를 하는 방식으로 진행했습니다.
+다만 이런 방식으로 할 때는 꼭 __라이선스(!!)__ 를 참고하여 진행하도록 합니다. 이 테마는 MIT 라이선스를 가지고 있고 저는 이에 맞춰서 블로그와 저장소의 [**README.md**](https://github.com/estrogenic/estrogenic.github.io/blob/master/README.md) 에 제작자 명시를 하는 방식으로 진행했습니다.
 
 ***
 
@@ -98,7 +98,7 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 저는 **HomeBrew**를 사용해서 설치하였기에 경로를 직접 지정해서 실행했습니다.
 
 아래 명령어를 순서대로 실행해줍니다.
-간혹 webrick이 설치가 안되있다고 오류가 떠서 의존성 설정을 추가해줬습니다. =_=
+간혹 webrick 설치가 안되있다고 오류가 떠서 의존성 설정을 추가해줬습니다. =_=
 
 * /usr/local/Cellar/ruby/3.0.0_1/bin/bundle add webrick
 * /usr/local/Cellar/ruby/3.0.0_1/bin/bundle install
@@ -128,7 +128,7 @@ Fork를 하는 방법도 있지만 여러 커스터마이징을 하기 위해서
 |:--:|:--:|
 |<small>$$\color{#228B22}{\textit{upload to github - 1}}$$</small>|<small>$$\color{#228B22}{\textit{upload to github - 2}}$$</small>|
 
-처음에는 업로드할 파일들이 많아서 `IntelliJ` 기능으로 업로드 하면 프로그램이 멈추더라고요;; -_-
+처음에는 업로드할 파일들이 많아서 IntelliJ 기능으로 업로드 하면 프로그램이 멈추더라고요;; -_-
 그래서 커맨드 명령어로 업로드 해줬습니다. 편하신 대로 업로드 해주시면 됩니다.
 
 ### 5-3 빌드 진행
