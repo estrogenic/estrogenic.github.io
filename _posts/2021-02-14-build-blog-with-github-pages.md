@@ -4,6 +4,7 @@ author: Jisoo Kim
 date: 2021-02-14 18:48:00 +0900
 categories: [Programming, GitHub]
 math: true
+viewer: true
 tags: [GitHub]
 image:
   src: /blog-assets/article-1/title.png?raw=true

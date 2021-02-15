@@ -27,6 +27,34 @@
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
 
+{% if page.viewer %}
+  <!-- ViewerJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.9.0/viewer.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.9.0/viewer.min.js"></script>
+  <script>
+    let isLoaded = new MutationObserver(function (mutations, me) {
+      let contentElement = document.getElementById('post-wrapper');
+      if (contentElement) {
+        let viewer = new Viewer(contentElement, {
+          focus: false, fullscreen: false, keyboard: false, loop: false, navbar : false, rotateable: false, slideOnTouch: false,
+          toolbar : false, tooltip: false, transition: false, zoomable: false, zoomOnTouch: false, zoomOnWheel: false,
+          title : () => { return document.querySelector('meta[property="og:title"]').content; },
+          view(event) {
+            event.detail.image.title = event.detail.originalImage.title;
+          }
+        });
+        me.disconnect();
+        return;
+      }
+    });
+
+    isLoaded.observe(document, {
+      childList: true,
+      subtree: true
+    });
+  </script>
+{% endif %}
+
 {% if jekyll.environment == 'production' %}
   <!-- PWA -->
   <script defer src="{{ '/app.js' | relative_url }}"></script>

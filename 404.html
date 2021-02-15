@@ -134,8 +134,8 @@ dynamic_title: true
   }
 </style>
 <script>
-  var observer = new MutationObserver(function (mutations, me) {
-    var pageElement = document.getElementById('page');
+  let observer = new MutationObserver(function (mutations, me) {
+    let pageElement = document.getElementById('page');
     if (pageElement) {
       let tempDiv = document.createElement('div');
       tempDiv.innerHTML = '<br>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <span style="font-size:5px">image from namu.wiki</span>';
