@@ -37,7 +37,7 @@
       if (contentElement) {
         let viewer = new Viewer(contentElement, {
           focus: false, fullscreen: false, keyboard: false, loop: false, navbar : false, rotateable: false, slideOnTouch: false,
-          toolbar : false, tooltip: false, transition: false, zoomable: false, zoomOnTouch: false, zoomOnWheel: false,
+          toolbar : false, tooltip: false, transition: false,
           title : () => { return document.querySelector('meta[property="og:title"]').content; },
           view(event) {
             event.detail.image.title = event.detail.originalImage.title;
